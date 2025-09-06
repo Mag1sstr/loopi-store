@@ -1,0 +1,25 @@
+.header {
+  background: var(--header-gray);
+}
+.row {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.city {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 16px;
+}
+.text {
+  display: flex;
+  align-items: center;
+  color: var(--blue-color);
+}
+.social {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}

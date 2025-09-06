@@ -1,0 +1,40 @@
+.row {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.items {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.promotion {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  padding: 2px 4px;
+  background: #fdefbf;
+  border-radius: 8px;
+}
+.tab {
+  transition: 0.2s;
+}
+.active {
+  position: relative;
+  color: var(--blue-color);
+}
+.active::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  bottom: -3px;
+  background: var(--blue-color);
+}
+.phone {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  font-size: 20px;
+}
